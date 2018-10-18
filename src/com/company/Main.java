@@ -166,13 +166,14 @@ public class Main {
                 System.out.println("Unit digit is smaller than user input, tens digit is greater than user input");
                 attempts++;
 
-                //Unit digit is greater than user input, tens digit is same than user input
+                //Unit digit is greater than user input, tens digit is the same user input
             } else if (unitCompDigit > unitDigit && tensCompDigit == tensDigit) {
-                System.out.println("Unit digit is greater than user input, tens digit is same than user input");
+                System.out.println("Unit digit is greater than user input, tens digit is the same as user input");
                 attempts++;
 
+                //unit digit is smaller than user input, tens digit is the same as user input
             } else if (unitCompDigit < unitDigit && tensCompDigit == tensDigit) {
-                System.out.println("Unit digit is smaller than user input, tens digit is same than user input");
+                System.out.println("Unit digit is smaller than user input, tens digit is the same as user input");
                 attempts++;
 
                 //Unit digit is smaller than user input, tens digit is smaller than user input
@@ -180,12 +181,12 @@ public class Main {
                 System.out.println("Unit digit is smaller than user input, tens digit is smaller than user input");
                 attempts++;
 
-                //Unit digit is same than user input, tens digit is greater than user input
+                //Unit digit is the same as user input, tens digit is greater than user input
             } else if (unitCompDigit == unitDigit && tensCompDigit > tensDigit) {
                 System.out.println("Unit digit is same than user input, tens digit is greater than user input");
                 attempts++;
 
-                //Unit digit is same than user input, tens digit is smaller than user input
+                //Unit digit is the same as user input, tens digit is smaller than user input
             } else if (unitCompDigit == unitDigit && tensCompDigit < tensDigit) {
                 System.out.println("Unit digit is same than user input, tens digit is smaller than user input");
                 attempts++;
