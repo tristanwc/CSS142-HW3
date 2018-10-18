@@ -76,7 +76,7 @@ public class Main {
     }
 
     //Figures out score depending on attempts and maxAttempts
-    private static int pointsScored(int attempts, int allowedAttempts) {
+    public static int pointsScored(int attempts, int allowedAttempts) {
         int points = 15;
         points -= allowedAttempts;
         points -= attempts;
