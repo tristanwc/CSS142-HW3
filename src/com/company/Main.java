@@ -66,13 +66,17 @@ public class Main {
         }
         // System.out.println(passValue + ", " + passLength);
         passValue = passValue / passLength; //Divides passValue by the length of the phrase
+<<<<<<< HEAD
         // System.out.println(passValue);
         passValue = (passValue % 10); //To reduce to the last single digit of the value
         //  System.out.println(passValue);
+=======
+        System.out.println(passValue);
+        passValue *= 3;
+        passValue = (passValue % 7); //To reduce to the last single digit of the value
+>>>>>>> ed3fa00e11f88c1a155acee547da1a64dceebe80
         if (passValue < 3)
-            return 3;
-        else if (passValue > 7)
-            return 7;
+            passValue += 3;
 
         return passValue;
     }

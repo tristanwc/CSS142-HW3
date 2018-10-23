@@ -47,14 +47,37 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-738796656">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="338" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="338" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="2761">
               <caret line="211" column="5" selection-start-line="211" selection-start-column="5" selection-end-line="211" selection-end-column="5" />
+=======
+            <state relative-caret-position="442">
+              <caret line="77" column="24" lean-forward="true" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+>>>>>>> ed3fa00e11f88c1a155acee547da1a64dceebe80
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,7 +124,10 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> ed3fa00e11f88c1a155acee547da1a64dceebe80
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,11 +150,20 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539896739358" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/CSS142-HW2" />
+=======
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539895760983" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> ed3fa00e11f88c1a155acee547da1a64dceebe80
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -175,7 +210,11 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.114072494" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+>>>>>>> ed3fa00e11f88c1a155acee547da1a64dceebe80
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -184,7 +223,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.33188722" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+>>>>>>> ed3fa00e11f88c1a155acee547da1a64dceebe80
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -211,7 +254,11 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+<<<<<<< HEAD
           <line>93</line>
+=======
+          <line>90</line>
+>>>>>>> ed3fa00e11f88c1a155acee547da1a64dceebe80
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -235,8 +282,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2761">
           <caret line="211" column="5" selection-start-line="211" selection-start-column="5" selection-end-line="211" selection-end-column="5" />
+=======
+        <state relative-caret-position="442">
+          <caret line="77" column="24" lean-forward="true" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+>>>>>>> ed3fa00e11f88c1a155acee547da1a64dceebe80
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
