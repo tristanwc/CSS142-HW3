@@ -64,9 +64,11 @@ public class Main {
         for (int i = 0; i < passLength; i++) {
             passValue += (int) passPhrase.charAt(i);
         }
+        // System.out.println(passValue + ", " + passLength);
         passValue = passValue / passLength; //Divides passValue by the length of the phrase
+        // System.out.println(passValue);
         passValue = (passValue % 10); //To reduce to the last single digit of the value
-
+        //  System.out.println(passValue);
         if (passValue < 3)
             return 3;
         else if (passValue > 7)
@@ -143,6 +145,7 @@ public class Main {
 
             if (unitCompDigit == unitDigit && tensCompDigit == tensDigit) {
                 System.out.println("You guessed it correctly!");
+                attempts++;
                 pointsScored(attempts, maxAttempts);
                 break;
             }
