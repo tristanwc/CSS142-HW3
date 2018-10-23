@@ -66,15 +66,14 @@ public class Main {
         }
         // System.out.println(passValue + ", " + passLength);
         passValue = passValue / passLength; //Divides passValue by the length of the phrase
-<<<<<<< HEAD
+
         // System.out.println(passValue);
         passValue = (passValue % 10); //To reduce to the last single digit of the value
         //  System.out.println(passValue);
-=======
-        System.out.println(passValue);
+
+        //System.out.println(passValue);
         passValue *= 3;
         passValue = (passValue % 7); //To reduce to the last single digit of the value
->>>>>>> ed3fa00e11f88c1a155acee547da1a64dceebe80
         if (passValue < 3)
             passValue += 3;
 
@@ -86,7 +85,7 @@ public class Main {
         int points = 15;
         points -= allowedAttempts;
         points -= attempts;
-        if (attempts == allowedAttempts) {
+        if (attempts > allowedAttempts) {
             return points * -1;
         }
         return points;
@@ -124,7 +123,7 @@ public class Main {
     public static int chooseRandomNumber() {
         Random r = new Random();
         int computerChosenNumber = r.nextInt(100);
-        System.out.println("DEBUG LOG: Computer chose " + computerChosenNumber);
+        System.out.println("DEBUG LOG: Computer chose " + computerChosenNumber + ", you have " + allowedAttempts + " attempts.");
         return computerChosenNumber;
     }
 
